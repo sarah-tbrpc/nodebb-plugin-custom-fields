@@ -1,7 +1,7 @@
 {
   "id": "nodebb-plugin-best-registration",
   "name": "best-registration",
-  "description": "מוסיף שדות לרישום משתמשים.",
+  "description": "Adding fields to NodeBB registration",
   "url": "https://github.com/AMAARETS/nodebb-plugin-custom-feilds",
   "library": "./library.js",
   "hooks": [
