@@ -1,5 +1,5 @@
 {
-  "id": "nodebb-plugin-best-registration",
+  "id": "nodebb-plugin-custom-fields-english",
   "name": "best-registration",
   "description": "Adding fields to NodeBB registration",
   "url": "https://github.com/AMAARETS/nodebb-plugin-custom-feilds",
