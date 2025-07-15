@@ -1,28 +1,16 @@
 {
   "id": "nodebb-plugin-custom-fields",
-  "name": "best-registration",
-  "description": "Adding fields to NodeBB registration",
-  "url": "https://github.com/AMAARETS/nodebb-plugin-custom-feilds",
+  "name": "Custom Fields",
+  "description": "Adds a custom profile type field to registration.",
+  "version": "1.0.1",
   "library": "./library.js",
   "hooks": [
-	{
-		"hook": "filter:register.build",
-		"method": "addField"
-	},
-	{
-		"hook": "filter:register.check",
-		"method": "checkRegister"
-	},
-	{
-		"hook": "filter:user.whitelistFields",
-		"method": "addUserFieldWhite"
-	},
-	{
-		"hook": "action:user.create",
-		"method": "saveTypeProfile"
-	}
+    { "hook": "filter:register.build", "method": "addField" },
+    { "hook": "filter:register.check", "method": "checkRegister" },
+    { "hook": "action:user.create", "method": "saveTypeProfile" },
+    { "hook": "filter:user.whitelistFields", "method": "addUserFieldWhite" }
   ],
   "nbbpm": {
-    "compatibility": "^1.17.0"
+    "compatibility": "^3.7.0"
   }
 }
