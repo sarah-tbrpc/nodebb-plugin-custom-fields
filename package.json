@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-custom-feilds",
-  "version": "1.0.0",
+  "name": "nodebb-plugin-custom-fields-english",
+  "version": "1.0.1",
   "description": "Custom fields for NodeBB registration",
   "main": "./library.js",
   "nbbpm": {
