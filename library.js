@@ -11,10 +11,10 @@ plugin.addField = function(params, callback) {
 		html: `
 			<div class="form-group">
 				<div id="explanation" style="border:1px solid #ccc; padding:8px; margin-top:10px;">
-					Select whether you are registering as a business or as an individual.
+					Select whether you are registering as an organization or as an individual.
 				</div>
 				<label style="margin-right:10px;">
-					<input type="radio" name="typeProfile" value="business"> Register as a Business
+					<input type="radio" name="typeProfile" value="business"> Register as an Organization
 				</label>
 				<label style="margin-right:10px;">
 					<input type="radio" name="typeProfile" value="private"> Register as an Individual
