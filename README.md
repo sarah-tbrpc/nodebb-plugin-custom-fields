@@ -1,2 +1,2 @@
-# nodebb-plugin-custom-feilds
+# nodebb-plugin-custom-fields
 הוספת שדות לרישום נודביבי
